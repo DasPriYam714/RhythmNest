@@ -1,5 +1,6 @@
 import CoverSection from "@/components/CoverSection";
 import Features from "@/components/Features";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
@@ -9,6 +10,9 @@ export default function Home() {
       </div>
       <div>
         <Features></Features>
+      </div>
+      <div>
+        <WhyChooseUs></WhyChooseUs>
       </div>
       
     </main>
